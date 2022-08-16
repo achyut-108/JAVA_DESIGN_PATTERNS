@@ -12,4 +12,10 @@ public class SingletonUsingStaticFinal {
 	}
 
 	
+	public static void main(String[] args) {
+		 
+		System.out.println("class NAme : " + SINGLETON_INSTANCE.getClass().getName());
+		
+	}
+	
 }
